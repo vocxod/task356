@@ -10,22 +10,40 @@ package org.example;
 public class AsciiCharSequence implements CharSequence {
 
     /**
-     * compactSequence stored lower byte from \u0032 unicode chars
+     * compactSequence stored lower byte from \u0032 unicode chars.
      *
      */
      public byte[] compactSequence;
 
     /**
      *
+     * Constructor.
      * @param asciiArray - Important: each value of array from 0 to 127.
      *                   Only ASCII char codes!
      */
-    AsciiCharSequence(byte[] asciiArray) {
+    public AsciiCharSequence(byte[] asciiArray) {
         this.compactSequence = new byte[asciiArray.length];
         for (int i =0; i < asciiArray.length; i++ ) {
             this.compactSequence[i] = asciiArray[i];
         }
     }
+
+    /**
+     * Get byte array sequence.
+     * @return byte array.
+     */
+    public byte[] getCompactSequence() {
+        return compactSequence;
+    }
+
+    /**
+     * Set new byte array for compactSequence field.
+     * @param compactSequence
+     */
+    public void setCompactSequence(byte[] compactSequence) {
+        this.compactSequence = compactSequence;
+    }
+
 
     /**
      *
