@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="task356" />
+        <module name="Task2356" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Task2356" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
