@@ -19,20 +19,20 @@ under the License.
 -->
 <rss version="0.91">
   <channel>
-    <title>task356 - Checkstyle report</title>
-    <link>${project.url}</link>
-    <description>task356 - Checkstyle report</description>
+    <title>Task 356 - Checkstyle report</title>
+    <link>https://github.com/vocxod/task356</link>
+    <description>Task 356 - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2022</copyright>
     <item>
       <title>File: 1,
              Errors: 0,
-             Warnings: 3,
+             Warnings: 0,
              Infos: 0
       </title>
-            <link>${project.url}/checkstyle.html</link>
+            <link>https://github.com/vocxod/task356/checkstyle.html</link>
       <description>
-        <p>Click <a href="${project.url}/checkstyle.html">here</a> for the full Checkstyle report.</p>
+        <p>Click <a href="https://github.com/vocxod/task356/checkstyle.html">here</a> for the full Checkstyle report.</p>
 
         <table summary="Files" boder="1">
           <thead>
@@ -46,13 +46,13 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#org.example.Main.java">org/example/Main.java</a>
+                  <a href="https://github.com/vocxod/task356/checkstyle.html#org.example.Main.java">org/example/Main.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  3
+                  0
                 </td>
                 <td>
                   0
